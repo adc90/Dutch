@@ -1,0 +1,9 @@
+#Git ignore file
+
+#Ignore everything
+*
+
+#Except
+!*.tex
+!.gitignore
+!README.md
