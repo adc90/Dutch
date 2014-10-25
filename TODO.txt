@@ -1,0 +1,5 @@
+Sat Oct 25 18:47:56 EDT 2014
+    *Use package enumitem in order to change spacing
+       > http://www.tex.ac.uk/cgi-bin/texfaq2html?label=complist
+    *Change tables to striped layouts
+    *Go over other errors marked on the physical copy
