@@ -10,6 +10,7 @@
 \usepackage{tabularx}
 \usepackage{scrextend}
 \usepackage{graphicx}
+\usepackage{enumitem}
 %---------------------
 
 %---------------------
@@ -17,272 +18,320 @@
 %---------------------
 \topmargin=-1.0in
 \setlength{\textheight}{10in}
+\definecolor{resgrey}{gray}{.85}
+\newcommand{\sectionhead}[1]{{\large
+{\begin{minipage}[t]{\linewidth}{\textit{\textbf{#1
+\vphantom{p\^{E}}}}\end{minipage}}}}}
+
+
+\topmargin=-1.0in
+\setlength{\textheight}{10in}
 
 \pagenumbering{gobble}
 \begin{document}
-
+%-------------------------------------------------------------------------
+% Page 1
+%-------------------------------------------------------------------------
+%------------------------------------------------------------------
+% Section: Heading
+%------------------------------------------------------------------
 \begin{center}
     \LARGE{Dutch Verbs}
 \end{center}
 \par{In Dutch there are two main tenses, \textit{present} and \textit{past}.
-These two tenses can be further divided into eight other tenses.}
+These two tenses can be further divided into eight other tenses. Each of these
+eight tenses require you to know both the correct conjugation and application.}
+\begin{flushleft}
+    \begin{tabular}[t]{l l}
+        1: Simple Present  & 5: Future              \\
+        2: Simple Past     & 6: Conditional         \\
+        3: Present Perfect & 7: Future Perfect      \\
+        4: Pluperfect      & 8: Conditional Perfect \\
+    \end{tabular}
+\end{flushleft}
 \\
-\begin{tabular}[t]{l l}
-    1: Simple Present  & 5: Future              \\
-    2: Simple Past     & 6: Conditional         \\
-    3: Present Perfect & 7: Future Perfect      \\
-    4: Pluperfect      & 8: Conditional Perfect \\
-\end{tabular}
+%------------------------------------------------------------------
+% Section: Conjugation
+%------------------------------------------------------------------
+\sectionhead{Conjugation}
+\par{In order to conjugate a verb correctly we must first identify the verb
+    stem.  Typically in Dutch verb infinitives end in the letters \textit{-en},
+    so to get the correct verb stem we just subtract this ending. For example if
+    we have the verb \textit{werken (to work)} the correct form of the verb stem
+    would be \textit{werk}.}
 \\
-\par{Each of these eight tenses require you to know both the correct conjugation
-    and application.}
-\\ 
-\textbf{\textit{Conjugation}}
-\par{In order to conjugate a verb correctly we must first identify the verb stem.
-    Typically in Dutch verb infinitives end in the letters \textit{-en}, so to
-    get the correct verb stem we just subtract this ending.}
-    \par{*Indent* For example if we have the verb \textit{werken (to work)} the correct form of
-    the verb stem would be \textit{werk}.}
-\\ 
 There are a few rules you must keep in mind when working with verb stems.
-\begin{enumerate} %[topsep=0pt, parset=2pt]
+\begin{enumerate}[topsep=0pt, parsep=0pt, partopsep=0pt, itemsep=0pt]
     \item Long vowel infinitives require long vowel stems.
-        \subitem Example *Tighten row spacing*
+        \subitem \small{\textit{Maken} would have the stem \textit{Maak} to
+        keep its long vowel sound.}
     \item A verb stem never ends in two identical consonants
-        \subitem Example *Tighten row spacing*
+        \subitem \small{\textit{Pakken} would have the stem
+        \textit{Pak}.}
     \item A verb stem never ends in \textit{-v} or \textit{-z}, verbs with these
         endings instead are replaced with \textit{-f} or \textit{-s} respectively.
-        \subitem Example *Tighten row spacing*
+        \subitem \small{\textit{Leven} would have the stem
+        \textit{Leef}.}
     \item The stem of an \textit{-ien} verb ends in \textit{-ie}.
-        \subitem Example *Tighten row spacing*
+        \subitem \small{\textit{Skien} would have the stem
+        \textit{Skie}.}
 \end{enumerate}
-\\ \\
-\textbf{\textit{Simple Present}}
+%------------------------------------------------------------------
+% Section: Simple Present
+%------------------------------------------------------------------
+\sectionhead{Simple Present}
 \par{The \textit{simple present} tense is used to refer to an event that takes place
 right now, or the current state of an object.}
-\\ 
-\begin{tabular}[t]{l l}
-    \textbf{Conjugation} \\
-    Ik + [stem] + t & We + \textit{infinitive} \\
-    Je + [stem] + t & Jullie + \textit{infinitive} \\
-    Hij + [stem] + t & Ze + \textit{infinitive} \\
-\end{tabular}
+\begin{flushleft}
+    \begin{tabular}[t]{l l}
+        \textbf{Conjugation} \\
+        \hline
+        \textit{Ik} + \textit{stem} + t & \textit{We} + \textit{infinitive} \\
+        \textit{Je} + \textit{stem} + t & \textit{Jullie} + \textit{infinitive} \\
+        \textit{Hij} + \textit{stem} + t & \textit{Ze} + \textit{infinitive} \\
+    \end{tabular}
+\end{flushleft}
 \\
 In Dutch the simple present is used in four cases.
-\begin{enumerate}
+\begin{enumerate}[topsep=0pt, parsep=0pt, partopsep=0pt, itemsep=0pt]
     \item To refer to a momentary action that coincides wit the moment we are
         talking about it.
-        \subitem Example *Tighten row spacing*
+        \subitem \small{NL: Ik neem een hapje.} 
+        \subitem \small{EN: I am taking a bite.} 
     \item To refer to an ongoing, habitual, or repetitive action or state.
-        \subitem Example *Tighten row spacing*
-    \item To refer to a future event (in combination with an adverb of time).
-        \subitem Example *Tighten row spacing*
+        \subitem \small{NL: Ze werkt bij de overheid.} 
+        \subitem \small{EN: She works for the government.} 
+    \item To refer to a future event in combination with an adverb of time.
+        \subitem \small{NL: Ik neem er straks nog een.} 
+        \subitem \small{EN: I will have another one in a moment.} 
     \item To refer to a hypothetical \textit{if-then} situation.
-        \subitem Example *Tighten row spacing*
+        \subitem \small{NL: Als je te cola drinkt krijg je gaatjes in je
+        tanden.} 
+        \subitem \small{EN: If you drink to much coke you will get
+        cavities in your teeth.} 
 \end{enumerate}
-\\ \\
-\textbf{\textit{Simple Past}}
+%-------------------------------------------------------------------------
+% Page 2
+%-------------------------------------------------------------------------
+\clearpage
+%-------------------------------------------------------------------------
+
+%------------------------------------------------------------------
+% Section: Simple Past
+%------------------------------------------------------------------
+\sectionhead{Simple Past}
+\\
 \par{Before we go get into the simples past we must make a distinction between two
 types of verbs \textit{t-verbs} which have a crude stem ending of
 \textit{t,h,f,c,k,s,p} and \textit{d-verbs}. A good way to remember this rule is
 with the phrase \textit{pocket fish} which contains all consonant endings that
 classify a \textit{t-verb}.}
-\\ 
+\\ \\
 \begin{tabular}[t]{l l}
     \textbf{Conjugation t-verb} \\
-    Ik + [stem] + te &  We + [stem] + ten \\
-    Je + [stem] + te &  Jullie + [stem] + ten \\
-    Hij + [stem] + te & Ze + [stem] + ten \\
+    \hline
+    \textit{Ik} + \textit{stem} + \textit{te} &  \textit{We} + \textit{stem} + \textit{ten} \\
+    \textit{Je} + \textit{stem} + \textit{te} &  \textit{Jullie} + \textit{stem} + \textit{ten} \\
+    \textit{Hij} + \textit{stem} + \textit{te} & \textit{Ze} + \textit{stem} + \textit{ten} \\
 \end{tabular}
-% These two charts should be on the same row
-% Chart titles should be italic, and charts should be striped
 \begin{tabular}[t]{l l}
     \textbf{Conjugation d-verb} \\
-    Ik + [stem] + de &  We + [stem] + den \\
-    Je + [stem] + de &  Jullie + [stem] + den \\
-    Hij + [stem] + de & Ze + [stem] + den \\
+    \hline
+    Ik + \textit{stem} + de &  We + \textit{stem} + den \\
+    Je + \textit{stem} + de &  Jullie + \textit{stem} + den \\
+    Hij + \textit{stem} + de & Ze + \textit{stem} + den \\
 \end{tabular}
-\\ \\
+\\
 We use the \textit{simple past} tense in Dutch when:
-\begin{enumerate}
-    \item To refer to events that took place int he past and have no relation to
-        the present.
-    \item To describe what went on during a certain event in the past.
+\begin{enumerate}[topsep=0pt, parsep=0pt, partopsep=0pt, itemsep=0pt]
+    \item Past events that do not have any bearing on the present
+        \begin{itemize}
+            \item If the event or action is still relevant to the present time we
+                generally use the present perfect. When referring to past events or
+                actions, the present perfect is more common that the simple past.
+                \subitem \small{NL: Karel de Grote regeerde van 800 tot 814.} 
+                \subitem \small{EN: Charlemangne reigned from 800 until 814.} 
+        \end{itemize}
+    \item Describing what went on during a certain past event.
+        \begin{itemize}
+            \item When we refer to an event that took place in the past, all information
+                surrounding that event is set in the simple past.
+                \subitem \small{NL: Tijdens de kabinetscrisis was de premier op
+                vakantie. } 
+                \subitem \small{EN: During the cabinet crisis, the prime-minister was on
+                vacation.} 
+        \end{itemize}
     \item When we introduce a past action or event by \textit{toen (when)}.
-\end{enumerate}
-\par{Lets examine these rules in more detail.}
-Past events that do not have any bearing on the present.
-\begin{enumerate}
-    \item If the event or action is still relevant to the present time we
-        generally use the present perfect. When referring to past events or
-        actions, the present perfect is more common that the simple past.
-        \subitem Example *Tighten row spacing*
-    \item When we refer to an event that took place in the past, all information
-        surrounding that event is set in the simple past.
-        \subitem Example *Tighten row spacing*
-    \item To set the state in the past we usually use the present perfect. All
-        actions and events that are followed are in the simple past.
-        \subitem Example *Tighten row spacing*
-\end{enumerate}
-\\ \\ 
-Introducing a past action or event by \textit{toen (when)}.
-\begin{enumerate}
-    \item When we point to a past event by using \textit{toen (when)}, we
-        generally use the simple past tense. If we use the perfect tense it all
-        it must be the \textit{pluperfect tense}.
+        \begin{itemize}
+            \item When we point to a past event by using \textit{toen}, we
+                generally use the simple past tense. If we use the perfect tense it all
+                it must be the \textit{pluperfect tense}.
+                \subitem \small{NL: Toen ik wakker werd, scheen de zon volop.} 
+                \subitem \small{EN: When I woke up, the sun was shining brightly.} 
+        \end{itemize}
 \end{enumerate}
 \\ \\
-*Separate section* \\
-\textbf{\textit{The past participle}}
-\begin{enumerate}
-    \item For the \textit{present tense} we use a past participle. For the
-        conjugation of the past participle we must distinguish between
-        \textit{t-verbs} and \textit{d-verbs}.
-    \item Past participle = GE + [stem] + t/d %Rephrase this.
-    \item A past participle never ends in double \textit{-t} or \textit{-d}.
+%------------------------------------------------------------------
+% Section: Past Participle
+%------------------------------------------------------------------
+\sectionhead{Past Participle}
+\begin{enumerate}[topsep=0pt, parsep=0pt, partopsep=0pt, itemsep=0pt]
+    \item A past particple never ends in double \textit{d} or \textit{d}.
+        \subitem \textit{Rusten} becomes \textit{Gerust}
+        \subitem \textit{Bloeden} becomes \textit{Gebloed}
     \item All verbs that begin with the prefixes \textit{be-, er-, her-, ont-,}
-        and \textit{ver-} do not get \textit{-ge} before the \textit{past
-        particple}.
+        and \textit{ver-} do not get \textit{-ge} before the \textit{past}
+        \subitem \textit{Verdelen } becomes \textit{Verdeeld}
+        \subitem \textit{Geschieden} becomes \textit{Geschied}
+    \item In the category of \textit{her-} verbs, there are a few exceptions.
+        \subitem \textit{Herbergen} becomes \textit{Geherberd}
+        \subitem \textit{Herhuisvesten} becomes \textit{Geherstructureerd}
 \end{enumerate}
 \\ \\
-\begin{tabular}[t]{l l l}
-    \textbf{Infinitive} & \textbf{in English} & \textbf{Past Participle} \\
-    Verdelen & To distribute & Verdeeld \\
-    Geschieden & To happen & Geschied \\
-    Betalen & To pay & Betaald \\
-    Ontdekken & To discover & Ontdekt \\
-    Erkennen & To acknowledge & Erkend \\
-    Herkenner & To recognize & Herkend \\
-\end{tabular}
+%------------------------------------------------------------------
+% Section: Present Perfect
+%------------------------------------------------------------------
+\sectionhead{Present Perfect}
 \\ \\
-In the category of \textit{her-} verbs, there are a few exceptions.
-\begin{tabular}[t]{l l l}
-    \textbf{Infinitive} & \textbf{in English} & \textbf{Past Participle} \\
-    Herbergen & To accommodate & Geherberd \\
-    Herhuisvesten & To relocate & Geherhuisvest \\
-    Herstructuren & To restructure & Geherstructureerd \\
-\end{tabular}
-\\ \\ 
-\textbf{\textit{Simple Past}}
-\\ \\ 
-For the \textit{perfect tense}, we generally use the verb \textit{hebben (to
-have)}, and \textit{zijn (to be)}.
-
+\par{For the \textit{present perfect} tense, we generally use the verb \textit{hebben (to
+have)}, and \textit{zijn (to be)}.}
 \begin{tabular}[t]{l l}
-    \textbf{Conjugation} \\
-    Ik + heb/ben + p.p. &  We hebben/zijn + p.p. \\
-    Je + hebt/bent + p.p. & Jullie hebben/zijn + p.p. \\
-    Hij heeft/is + p.p. & Ze hebben/zijn + p.p. \\
+    \textit{Conjugation} \\
+    \hline
+    \textit{Ik} \textit{heb/ben} + \textit{p.p.} &  \textit{We hebben/zijn} +
+    \textit{p.p.} \\
+    \textit{Je} \textit{hebt/bent} + \textit{p.p.} & \textit{Jullie hebben/zijn}
+    + \textit{p.p.} \\
+    \textit{Hij} \textit{heeft/is} + \textit{p.p.} & \textit{Ze hebben/zijn} +
+    \textit{p.p.} \\
 \end{tabular}
 \\ \\
 When referring to an event that took place in the past we usually opt for the
 \textit{Present pefect}.
 \\
 For example using \textit{blaffen (to bark)}.
-\\
-\textit{Pluperfect}
 \\ \\
-The pluperfect uses the \textit{simple past} tense of the verbs \texit{hebben}
-and \textit{zijn}.
-\\ 
+%------------------------------------------------------------------
+% Section: Pluperfect
+%------------------------------------------------------------------
+\sectionhead{Pluperfect}
+\\
+\par{The pluperfect uses the \textit{simple past} tense of the verbs
+\textit{hebben} and \textit{zijn}.}
+\\
 \begin{tabular}[t]{l l}
-    \textbf{Conjugation} \\
-    Ik + had/was + p.p. & We + hadden/waren + p.p. \\
-    Je + had/was + p.p. & Jullie + hadden/waren + p.p. \\
-    Hij + had/was + p.p. & Ze + hadden/waren + p.p. \\
+    \textit{Conjugation} \\
+    \hline
+    \textit{Ik} + \textit{had/was} + p.p. & \textit{We} + \textit{hadden/waren} + \textit{p.p.} \\
+    \textit{Je} + \textit{had/was} + p.p. & \textit{Jullie} + \textit{hadden/waren} + \textit{p.p.} \\
+    \textit{Hij} + \textit{had/was} + p.p. & \textit{Ze} + \textit{hadden/waren} + \textit{p.p.} \\
 \end{tabular}
 \\ \\
-Using pluperfect \\
-We use the pluperfect to refer to an event that occurred before another past
-event. \\
-Ex: Toen wij aankwamen, waren de meosto gasten al gearriveerd. \\
-We we came, most guest had already arrived. \\
+Using pluperfect
+\par{We use the pluperfect to refer to an event that occurred before another past
+event.} 
+\par \small Toen wij aankwamen, waren de meosto gasten al gearriveerd.
+\par \small We we came, most guest had already arrived.
 \\ \\
-\textit{The simple perfect} \\ \\
-For the future tense we use the auxiliary verb \textit{zullen (will)} \\
+%------------------------------------------------------------------
+% Section: Simple Perfect
+%------------------------------------------------------------------
+\sectionhead{Simple Perfect}
+\par{For the future tense we use the auxiliary verb \textit{zullen (will)}} \\
 \begin{tabular}[t]{l l}
-    \textbf{Conjugation} \\
+    \textit{Conjugation} \\
+    \hline
     Ik zal + \textit{infinitive} & We zulln + \textit{infinitive} \\
     Je zult/zal + \textit{infinitive} & Jullie zulln + \textit{infinitive} \\
     Hij zal + \textit{infinitive} & Ze zulln + \textit{infinitive} \\
-\end{tabular} 
-\\ 
+\end{tabular}
+\\
 %Make a small note bellow chart
-*Note: Both zult \& zal are equally correct. \\ 
+Note: Both zult and zal are equally correct.\\
+\\
 When to use zullen \\
-Zullen + infinitive is more similar to \textit{shall} than to \textit{will}. \\
-Express a promise or proposal. \\ 
-Stress that something will most certainly happen. \\
-Express that an event is likely going to take place. \\
-Ex: Ik zal het nooit meev doen! \\
+\par{Zullen + infinitive is more similar to \textit{shall} than to
+\textit{will}. We use this form in the following situations.}
+\begin{enumerate}[topsep=0pt, parsep=0pt, partopsep=0pt, itemsep=0pt]
+    \item To express a promise or proposal.
+    \item Stress that something will most certainly happen.
+    \item Express that an event is likely going to take place.
+\end{enumerate}
+Ik zal het nooit meev doen! \\
 I shall not do it again. \\
-\\ \\ 
+\\ \\
 How do the dutch typically refer to the future? \\ \\
-Often in dutch the word \textit{gaan(to go)} is used. \\
-We use it to \\
-\begin{enumerate}
-    \item Express an intended action (but no promise, proposal, or solemn plan).
+Often in dutch the word \textit{gaan(to go)} is used to:
+\begin{enumerate}[topsep=0pt, parsep=0pt, partopsep=0pt, itemsep=0pt]
+    \item Express an intended action but no promise, proposal, or solemn plan.
     \item To say that an event is going to take place, without stressing the
         certainty or mentioning the probability.
 \end{enumerate}
-\\ 
+\\
 % Figure out a format for examples
-Ik ga vanarand pannenkoeken bakken \\ 
+Ik ga vanarand pannenkoeken bakken \\
 I am going to bake pancakes tonight \\
-\\ \\
-If the point in time when the event is going to take place is explicitly
-mentioned, we often use the simple present. \\
+\par{If the point in time when the event is going to take place is explicitly
+mentioned, we often use the simple present.}
+\\
 Ik bak vanavond pannenkoeken. \\
 English translation here \\
-\\ \\ 
-\textit{Future Perfect} \\ \\
-The future perfect is rather uncommon in Dutch. It is used when you want to say
-something with have been completed. \\ 
+\\ \\
+%------------------------------------------------------------------
+% Section: Future Perfect
+%------------------------------------------------------------------
+\sectionhead{Future Perfect}
+\par{The future perfect is rather uncommon in Dutch. It is used when you want to say
+something with have been completed.}
 %Check over this chart and line up the words
+\\
 \begin{tabular}[t]{l l}
-    \textbf{Conjugation} \\
+    \textit{Conjunction} \\
+    \hline
     Ik zal hebben/zijn + p.p. & We zullen hebben/zijn + p.p. \\
     Je zult/zal hebben/zijn + p.p. & Jullie zullen hebben/zijn + p.p. \\
     Hij zal hebben/zijn + p.p. & Ze zullen hebben/zijn + p.p. \\
-\end{tabular} 
+\end{tabular}
 \\
-%This is comparing two future tenses 
+%This is comparing two future tenses
 Using the future perfect \\
-Future perfect: \\ 
+Future perfect: \\
 Morgen zal ze het allemaal zijn vorgeten. \\
 Tomorrow, she will have forgotten all about it. \\
-Present perfect \\ 
+Present perfect \\
 Morgen is ze het allemaal vegeten. \\
 Tomorrow, she has forgoten about it. \\
 *The dutch say: \\
 \textit{Tomorrow she has forgotten} as opposed to \textit{She will have forgoten}.
-\\ \\ 
-\textit{Conditional} \\
-The \textit{conditional} tense is used to refer to hypothetical situations. The
+\\ \\
+%------------------------------------------------------------------
+% Section: Conditional
+%------------------------------------------------------------------
+\sectionhead{Conditional}
+\par{The \textit{conditional} tense is used to refer to hypothetical situations. The
 conditional tense works the same as the future tense, however instead of the
-present tense of the irregular verb \textit{zullen} we use the past tense. \\
+present tense of the irregular verb \textit{zullen} we use the past tense.}
 %Maybe replace the way this is written
 %I zou /textit{infinitive}
 %Make charts more clear that it is Hij/Zijn
+\\
 \begin{tabular}[t]{l l}
-    \textbf{Conjugation} \\
+    \textit{Conjugation} \\
+    \hline
     Ik zou + \textit{infinitive} & We zouden + \textit{infinitive} \\
     Je zou + \textit{infinitive} & Jullie zouden + \textit{infinitive} \\
     Hij zou + \textit{infinitive} & Ze zouden + \textit{infinitive} \\
-\end{tabular} 
+\end{tabular}
 \\
-Ex: \textit{zeggen (to say) lulsteren (to listen)} \\
+ \textit{zeggen (to say) lulsteren (to listen)} \\
 Ik zou zeggen \\ % Maybe would workd as a table
 English here \\
 Ik zou lulsteren \\
 English here \\
-\\ \\ 
-Using the conditional \\ 
-We use the conditional tense to refer to hypothetical situations. The most
-common form is the conditional: \\ 
-If certain criteria are met, then a certain hypothetical situation would be the
-case. \\
-%Phrasing
+\par{We typically use the \textit{conditional} tense to refer to hypothetical
+situations. For example we would use it in situations where if certain criteria
+are met, then a certain hypothetical situation would be the case.}
+\\
 Will and would: For more realistic, we can also use the future tense. \\
 If certain criteria are met, then a certain hypothetical situation will be the
 case. In this case, however the Dutch normally use the \textit{simple present}.
@@ -294,11 +343,11 @@ If-then situations \\
 For verbs in the if-clause, the English often use the subjunctive (not 'he was'
 but 'he were') % Replace with italics
 \\
-Ex: \\
+ \\
 Dat zou ik neit doen als ik jou was. \\
 I would not do that if I were you. \\
 Sometimes the if-then structure is not clear \\
-We zouden ons maar verelen.\\ 
+We zouden ons maar verelen.\\
 We would only be bored. \\ % The example online is much more clear
 In English \textit{would} can only occur in the \textit{then-clause}. A sentence
 like \textit{If I would...then I would} is not considered correct grammar. This
@@ -306,7 +355,7 @@ is not the case in Dutch however. \\ \\
 Supposed to be situations \\
 \textit{Zouden} is also used when we talk about what should be the case
 according to our norms, plans, or expectations. \\
-Ex: \\
+ \\
 Hij zou vandaag op tijal komen. \\
 He was supposed to be on time today. \\
 Hij zou toto januari bilijven. \\
@@ -314,8 +363,8 @@ He was going to stay until January. \\
 Polite Form \\
 We also use zouden when we want to sound more polite. To politely express a
 wish, we add the adverb \textit{graag (with pleasure,please)}, which give the
-equivilent of the Elgnish \textit{I would like}. \\ 
-Ex: \\
+equivilent of the Elgnish \textit{I would like}. \\
+ \\
 Ik zou graag een retourje leiden willen. \\
 I would like a return ticket to leiden. \\
 We also use \textit{zouden} to make a suggestion in the form, \textit{would it
@@ -326,12 +375,12 @@ Should: Dutch does not have a verb for should, instead they use a combination of
 two verbs, \textit{zouden moeten (english)}. If we place the infinitive
 \textit{moeten(to have to)} after \textit{zouden (english)} we get the English
 equivalent of should. \\
-Ex: \\
+ \\
 Dat zou je moten weten. \\
 You should know that. \\
 When the required action is urgent or presented as a clear command, we often
-simply use \textit{moeten}. \\ 
-Ex: \\
+simply use \textit{moeten}. \\
+ \\
 Je moet better apletten. \\
 English translation here. \\
 Conditional Perfect \\
@@ -341,12 +390,13 @@ difference being that the verb \textit{zullen} is conjugated in the simple past
 tense. \\
 \begin{tabular}[t]{l l}
     \textbf{Conjugation} \\
+    \hline
     Ik zou hebben/zijn + p.p. & We zouden hebben/zijn + p.p. \\
     Je zou hebben/zijn + p.p. & Jullie zouden hebben/zijn + p.p. \\
     Hij zou hebben/zijn + p.p. & Ze zouden hebben/zijn + p.p. \\
-\end{tabular} 
+\end{tabular}
 \\
-Ex: \\
+\\
 Ik zou hebben gedanst. \\
 English translation here. \\
 \\
@@ -357,17 +407,36 @@ if you had paind attention, you would have noticed that. \\
 Using the pluperfect to express a hypothetical situation in the past. \\
 In Dutch we often use the \textit{pluperfect} tense to express a hypothetical
 situation in the past. \\
-Ex:  \\
-Ik had data zeker neit gedaan. \\ 
+  \\
+Ik had data zeker neit gedaan. \\
 I certainly would not have done that. \\
 %-------------------------------------------------------------
 % Some of this sounds redundant and needs to be consolidated.
 %-------------------------------------------------------------
-Should have \\  
+Should have \\
 For the past participle should have, the dutch say \textit{hadden moeten +
 infinitive}. The Dutch construction is int he pluperfect tense which we often
 use instead of the conditional perfect. \\
 Ik had niet moeten zeggen. \\
 I should not have said that. \\
 \end{document}
+
+% \begin{tabular}[t]{l l l}
+%     \textbf{Infinitive} & \textbf{In English} & \textbf{Past Participle} \\
+%     \hline
+%     Verdelen & To distribute & Verdeeld \\
+%     Geschieden & To happen & Geschied \\
+%     Betalen & To pay & Betaald \\
+%     Ontdekken & To discover & Ontdekt \\
+%     Erkennen & To acknowledge & Erkend \\
+%     Herkenner & To recognize & Herkend \\
+% \end{tabular}
+
+% \begin{tabular}[t]{l l l}
+%     \textbf{Infinitive} & \textbf{In English} & \textbf{Past Participle} \\
+%     \hline
+%     Herbergen & To accommodate & Geherberd \\
+%     Herhuisvesten & To relocate & Geherhuisvest \\
+%     Herstructuren & To restructure & Geherstructureerd \\
+% \end{tabular}
 
