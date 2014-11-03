@@ -1,5 +1,10 @@
-Sat Oct 25 18:47:56 EDT 2014
+Sat Oct 25 18:47:56 EDT 2014 [Done]
     *Use package enumitem in order to change spacing
        > http://www.tex.ac.uk/cgi-bin/texfaq2html?label=complist
     *Change tables to striped layouts
     *Go over other errors marked on the physical copy
+Sun Nov 02 21:40:28 EDT 2014 [To do]
+    *Fill out list for nouns and verbs
+    *Finish adjectives and verbs section
+    *Finish other sections from note book
+    *Add in alphabet section
